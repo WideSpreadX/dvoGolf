@@ -1,0 +1,133 @@
+/* Fonts */
+/* 
+font-family: 'Arsenal', sans-serif;
+font-family: 'Meddon', cursive;
+font-family: 'Monsieur La Doulaise', cursive;
+font-family: 'Nothing You Could Do', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Pinyon Script', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'UnifrakturCook', cursive;
+font-family: 'Vollkorn SC', serif;
+*/
+
+
+body {
+    width: 100vw;
+    background-image: url("../system/images/background/golf-course_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100vh;
+}
+h1 {
+    font-family: 'Parisienne', cursive;
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+}
+.text-background {
+    margin-top: 60px;
+    background: rgba(255, 255, 255, 0.699);
+    border-radius: 8px;
+}
+/* 
+
+Partials
+
+*/
+
+
+/* Main Menu */
+.main-menu {
+    background: rgb(38, 110, 32);
+    width: 100%;
+}
+.main-menu li {
+    width: 30%;
+    display: inline-flex;
+    list-style: none;
+}
+.main-menu a {
+    font-family: 'Arsenal', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* 
+
+Views
+
+*/
+/*
+ Landing 
+*/
+
+/* Welcome */
+.welcome {
+    background: rgba(0, 0, 0, 0.541);
+    padding-bottom: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 20px #222;
+}
+.welcome h1 {
+    font-family: 'Parisienne', cursive;
+}
+.welcome h1:last-of-type {
+    margin-top: -10px;
+}
+.welcome h3 {
+    font-family: 'Arsenal', sans-serif;
+    text-align: center;
+    color: #ccc;
+    margin-top: -20px;
+}
+/* Login */
+.log-in-form {
+    margin-top: 80px;
+    padding-top: 30px;
+    font-size: 1.5rem;
+}
+.log-in-form h2 {
+    text-align: center;
+    color: #fff;
+}
+.log-in-form input {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+#email, #password {
+    padding: 8px;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+#loginButton {
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 8px;
+}
+.log-in-form p {
+    margin-top: 30px;
+    color: #222;
+    font-size: 1.3rem;
+    padding: 15px;
+
+}
+
+
+/* Scorecard */
+
+.scorecard {
+    width: 94vw;    
+    overflow-x: scroll;
+}
