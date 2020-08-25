@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const Handlebars = require('handlebars')
 const exphbs = require("express-handlebars");
 const bodyParser = require('body-parser');
-const PORT = 3000;
+const PORT = 5000;
 
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
@@ -23,6 +23,11 @@ mongoose.connect( process.env.MONGODB_URI || 'mongodb://localhost/golf', {useNew
 // Landing Page
 app.get('/', (req, res) => {
     res.render('index');
+});
+
+// Invitation Page
+app.get('/invitation', (req, res) => {
+    res.render('invite');
 });
 
 // Register Page

@@ -14,6 +14,7 @@ font-family: 'Vollkorn SC', serif;
 
 body {
     width: 100vw;
+    height: 100vh;
     background-image: url("../system/images/background/golf-course_1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -23,6 +24,8 @@ body {
 }
 .container {
     height: 100vh;
+    overflow-y: scroll;
+    padding-bottom: 40px;
 }
 h1 {
     font-family: 'Parisienne', cursive;
@@ -67,6 +70,54 @@ Partials
 Views
 
 */
+
+
+/* 
+Invitation Page
+*/
+/* Invite Header */
+.invite-header {
+    margin-top: 50px;
+}
+.invite-header h1 {
+    font-size: 5rem;
+}
+
+/* Invite Info */
+.invite-info {
+    margin-top: 60px;
+    background: rgba(255, 255, 255, 0.699);
+    border-radius: 8px;
+    padding: 10px;
+}
+.invite-info h2 {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+.invite-info h3 {
+    font-family: 'Parisienne', cursive;
+    font-size: 3.5rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 6px #333;
+    margin-top: 30px;
+}
+.invite-info h4 {
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    color: #fff;
+    font-size: 3rem;
+    text-shadow: 0 0 4px #333;
+}
+.invite-info h5 {
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.invite-info p {
+    text-align: center;
+}
 /*
  Landing 
 */
